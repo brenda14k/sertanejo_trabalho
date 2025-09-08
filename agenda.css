@@ -1,0 +1,28 @@
+.agenda {
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+}
+
+.show {
+    background-color: #cca277;
+    width: 750px;
+    height: 150px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titulo-show {
+    width: 270px;
+    text-align: center;
+}
+
+.capa-show {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 120px;
+    border-radius: 20px
+}

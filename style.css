@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color:white;
+}
+
+a:visited {
+    color: white;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    background-color: #e8c899;
+    color: white;
+    font-family: "Mozilla Headline", sans-serif;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.topo {
+    background-color: #b9936c;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-pagina {
+    width: 75px;
+    padding-right: 10px;
+}
+
+.titulo-pagina {
+    font-size: 50px;
+}
+
+.menu-principal {
+    background-color: #9b7a59;
+    justify-content: center;
+}
+
+.opcao-menu {
+    list-style: none;
+    background-color: #cca277;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0 7px;
+    text-decoration: none;
+}
+
+.opcao-menu:hover {
+    background-color: #eebe8e;
+    transition: all .4s ease;
+}
+
+.rodape {
+    background-color: #b9936c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-main {
+    color: rgb(164, 40, 40);
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.rodape-titulo {
+    color: rgb(164, 40, 40);
+    font-size: 50px;
+    text-align: center;
+}
+
+.redes-sociais {
+    margin-top: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rede-social {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #ebbc8d;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.rede-social:hover {
+    background-color: #9d7c5b;
+    transition: all .4s ease;
+}
+
+.imagem-rede-social {
+    width: 60%;
+
+}
