@@ -45,7 +45,7 @@ body {
 
 /* Biografia */
 .container_bio {
-    background-color: #3A66A3;
+    background-color: #cca277;
     border-radius: 15px;
     margin: 30px auto;
     padding: 20px;
@@ -134,5 +134,6 @@ Nesse código,isso foi necessário porque eu queria colocar três fotos uma ao l
  por causa da largura, não conseguiria fazer sem perder a nitidez da imagem. 
 
 */
+
 
 
